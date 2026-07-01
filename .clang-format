@@ -1,0 +1,27 @@
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# 제어문 한 줄 허용
+# AllowShortIfStatementsOnASingleLine: WithoutElse
+# AllowShortIfStatementsOnASingleLine: Always
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+
+# 중괄호가 없어도 한 줄 블록을 허용하도록 설정
+AllowShortBlocksOnASingleLine: Always
+
+# 반복문과 case 문도 한 줄 허용
+AllowShortLoopsOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+
+# 함수 정의도 한 줄 허용
+AllowShortFunctionsOnASingleLine: All
+# AllowShortFunctionsOnASingleLine: Inline
+
+# 선택적 권장 옵션
+ColumnLimit: 140                     # 한 줄 최대 길이
+BreakBeforeBraces: Attach            # { 를 같은 줄에 배치
+SpaceBeforeParens: ControlStatements # 제어문(if, while 등) 뒤에 공백 추가
+PointerAlignment: Left               # int* p 형태
+SortIncludes: false                  # include 순서 자동 정렬 방지
