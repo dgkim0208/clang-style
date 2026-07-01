@@ -9,11 +9,11 @@ UseTab: Never
 AllowShortIfStatementsOnASingleLine: AllIfsAndElse
 
 # 중괄호가 없어도 한 줄 블록을 허용하도록 설정
-AllowShortBlocksOnASingleLine: Always
+# AllowShortBlocksOnASingleLine: Always
 
 # 반복문과 case 문도 한 줄 허용
-AllowShortLoopsOnASingleLine: true
-AllowShortCaseLabelsOnASingleLine: true
+# AllowShortLoopsOnASingleLine: true
+# AllowShortCaseLabelsOnASingleLine: true
 
 # 함수 정의도 한 줄 허용
 AllowShortFunctionsOnASingleLine: All
