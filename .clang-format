@@ -1,23 +1,20 @@
-BasedOnStyle: Google
+BasedOnStyle: Microsoft
 IndentWidth: 4
 TabWidth: 4
 UseTab: Never
 
 # 제어문 한 줄 허용
-# AllowShortIfStatementsOnASingleLine: WithoutElse
-# AllowShortIfStatementsOnASingleLine: Always
-AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortIfStatementsOnASingleLine: Never
 
 # 중괄호가 없어도 한 줄 블록을 허용하도록 설정
-# AllowShortBlocksOnASingleLine: Always
+AllowShortBlocksOnASingleLine: Never
 
 # 반복문과 case 문도 한 줄 허용
-# AllowShortLoopsOnASingleLine: true
-# AllowShortCaseLabelsOnASingleLine: true
+AllowShortLoopsOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
 
 # 함수 정의도 한 줄 허용
-AllowShortFunctionsOnASingleLine: All
-# AllowShortFunctionsOnASingleLine: Inline
+AllowShortFunctionsOnASingleLine: None
 
 # 선택적 권장 옵션
 ColumnLimit: 140                     # 한 줄 최대 길이
